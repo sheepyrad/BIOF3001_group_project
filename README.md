@@ -1,4 +1,4 @@
-#  Clade I and II Mpox Transmission Analysis and CFR Estimation 
+#  Mpox Clade I & II: Transmission Analysis and CFR Estimation
 
 ## Overview
 

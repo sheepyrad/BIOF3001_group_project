@@ -84,3 +84,8 @@ To run the analysis, follow these steps:
 2. **CFR Calculation**: For CFR visualization, run the `cfr_T.R` script directly, which will process the data and display the CFR plot.
 3. **Rt Visualization**: After running the deconvolution and Rt estimation scripts for the four countries, execute the `plot_with_epi.R` script to generate the Rt visualization.
 
+### 7. Attribution
+
+We would like to express our heartfelt gratitude to **Prof. Kathy Leung** for her invaluable guidance and mentorship throughout this project. Our special thanks go to **Ms. Chrissy Pang** and **Mr. Zhenyu Wang** for their generous assistance and contributions, particularly for providing the `DeconvolutionIncidence1.R` function, which serves as a core component in the Rt analysis.
+
+Additionally, we acknowledge the use of **ChatGPT 4o** and **ChatGPT o1-preview** for generating and annotating code, which significantly facilitated our workflow.

@@ -15,10 +15,10 @@ The following steps are involved in the analysis pipeline:
 
 ## Work distribution
 
-Conrad: USA data cleaning and Rt estimation, Overall Data visualization and CFR estimation
-Joanne: DRC data cleaning and Rt estimation
-Martin: UG data cleaning and Rt estimation
-Coco: BU data cleaning and Rt estimation
+1. **Conrad**: USA data cleaning and Rt estimation, Overall Data visualization and CFR estimation
+2. **Joanne**: DRC data cleaning and Rt estimation
+3. **Martin**: UG data cleaning and Rt estimation
+4. **Coco**: BU data cleaning and Rt estimation
 
 ## Workflow
 

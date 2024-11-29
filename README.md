@@ -1,4 +1,4 @@
-# Project Documentation: Mpox Transmission Analysis and CFR Estimation for clade I and II
+# Mpox Transmission Analysis and CFR Estimation for clade I and II
 
 ## Overview
 
@@ -6,7 +6,7 @@ This project involves the estimation of the reproduction number (Rt) and the Cas
 
 The following steps are involved in the analysis pipeline:
 
-1. **Data Preprocessing**: Import and clean the data, including handling missing values and converting date formats.
+1. **Data Preprocessing**: Import and clean the data, including handling missing values and converting date formats. Daily incidence data were obtained from Our World in Data, and is manaully cleaned and stored in the `/data` directory.
 2. **Deconvolution of Case Data**: Using the **DeconvolutionIncidence1** function, we obtain infection dates from reported case counts.
 3. **Rt Estimation**: Estimate the reproduction number (Rt) using the **EpiEstim** package.
 
@@ -46,7 +46,7 @@ The processed data files for different countries are stored in the `/rds/` direc
 The deconvolution step estimates the underlying infection curve based on reported cases. This process uses the **DeconvolutionIncidence1** function, which is called in the country-specific scripts under the `/rt/[Country]/` folder. For example, the file `/rt/US/main_deconvol_US.R` estimates the infection curve for the United States.
 
 Key steps in this process:
-- Load and preprocess raw case data (`mpox_USA.csv`) [stored in the /data directory].
+- Load and preprocess raw case data (`/data/mpox_USA.csv`) [stored in the /data directory].
 - Apply a gamma distribution to model the incubation period.
 - Estimate the convolution of the case data using the `pgamma` function to obtain the infection curve.
 - Plot the results and save the deconvolution output as a CSV file to the `/output/[Country]` directory.

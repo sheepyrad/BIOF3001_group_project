@@ -13,6 +13,13 @@ The following steps are involved in the analysis pipeline:
 4. **CFR Calculation**: Estimate the case fatality rate (CFR) for different hypothetical values of the time lag (T).
 5. **Visualization**: Use Shiny apps for interactive visualizations of Rt and CFR trends.
 
+## Work distribution
+
+Conrad: USA data cleaning and Rt estimation, Overall Data visualization and CFR estimation
+Joanne: DRC data cleaning and Rt estimation
+Martin: UG data cleaning and Rt estimation
+Coco: BU data cleaning and Rt estimation
+
 ## Workflow
 
 ### 1. Processed Data Files

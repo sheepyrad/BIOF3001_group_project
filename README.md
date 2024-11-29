@@ -1,4 +1,4 @@
-# Project Documentation: Mpox Transmission Analysis and CFR Estimation
+# Project Documentation: Mpox Transmission Analysis and CFR Estimation for clade I and II
 
 ## Overview
 

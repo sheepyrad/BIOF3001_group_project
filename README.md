@@ -15,10 +15,10 @@ The following steps are involved in the analysis pipeline:
 
 ## Work distribution
 
-1. **Conrad**: USA data cleaning and Rt estimation, Overall Data visualization and CFR estimation
-2. **Joanne**: DRC data cleaning and Rt estimation
-3. **Martin**: UG data cleaning and Rt estimation
-4. **Coco**: BU data cleaning and Rt estimation
+1. **Conrad**: Data cleaning [/data/mpox.csv, /data/mpox_USA.csv], Rt estimation [/rt/main_mpox_USA.R, main_deconvol_US.R], Overall Data visualization [plot_with_epi.R] and CFR estimation for USA and DRC [cfr_T.R]
+2. **Joanne**: DRC data cleaning [/data/mpox_DRC.csv] and Rt estimation [/rt/main_mpox_DRC.R, main_deconvol_DRC.R]
+3. **Martin**: UG data cleaning [/data/mpox_UG.csv] and Rt estimation [/rt/main_mpox_UG.R, main_deconvol_UG.R]
+4. **Coco**: BU data cleaning [/data/mpox_BU.csv] and Rt estimation [/rt/main_mpox_BU.R, main_deconvol_BU.R]
 
 ## Workflow
 
